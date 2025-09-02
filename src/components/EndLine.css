@@ -1,0 +1,14 @@
+.app-end-line-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 8px;
+}
+
+.app-end-line {
+  width: 134px;
+  height: 5px;
+  border-radius: 100px;
+  background-color: var(--neutral-100);
+}

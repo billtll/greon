@@ -1,0 +1,23 @@
+.app-header-position {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .logo-icon {
+    height: 28px;
+  }
+
+  .search-icon {
+    font-size: 28px;
+  }
+
+  .vip-icon {
+    height: 28px;
+  }
+
+  .night-mode-white-icon {
+    height: 28px;
+  }
+}

@@ -1,0 +1,58 @@
+.account-nav-appearance {
+  margin-top: 30px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: calc(100vh - 216px);
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.account-nav-border {
+  border-bottom: 1px solid #f5f5f54d;
+}
+
+.account-nav-vip-icon {
+  height: 26px;
+}
+
+.account-nav-green-account-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.logout-btn {
+  padding-block: 12px;
+  font-size: 1rem;
+}
+
+.account-nav-btn {
+  display: flex;
+}
+
+.account-nav-active-text {
+  color: var(--success-200);
+}
+
+.account-nav-icon-size {
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 768px) {
+  .account-nav-appearance {
+    height: calc(100vh - 260px);
+    padding: 2rem 2rem 3rem 2rem;
+  }
+  .account-nav-vip-icon {
+    height: 36px;
+  }
+
+  .account-nav-green-account-icon {
+    height: 64px;
+    width: 64px;
+  }
+
+  .account-nav-icon-size {
+    width: 20px;
+    height: 20px;
+  }
+}

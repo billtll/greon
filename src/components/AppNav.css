@@ -1,0 +1,32 @@
+.app-nav-active-text {
+  color: var(--success-200);
+}
+
+.app-nav-icon-size {
+  height: 24px;
+}
+
+.app-nav-account-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  transition: all 0.5s;
+}
+
+.app-nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-xs);
+}
+
+@media (min-width: 1194px) {
+  .icon-size {
+    width: 28px;
+    height: 28px;
+  }
+}

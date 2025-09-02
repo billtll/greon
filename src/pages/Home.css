@@ -1,0 +1,104 @@
+.decoration1 {
+  width: 800px;
+  top: -100px;
+  right: -590px;
+}
+
+.decoration2 {
+  width: 500px;
+  bottom: 11%;
+  left: -300px;
+}
+
+.decoration3 {
+  width: 800px;
+  bottom: -600px;
+  right: -485px;
+}
+
+.home-page-logo {
+  width: 225px;
+}
+
+.login-btn {
+  color: aliceblue;
+  bottom: -172px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .decoration1 {
+    top: -440px;
+    right: -250px;
+  }
+
+  .decoration2 {
+    width: 600px;
+    bottom: 12%;
+    left: -300px;
+  }
+
+  .decoration3 {
+    width: 680px;
+    bottom: -480px;
+    right: -195px;
+  }
+
+  .home-page-logo {
+    width: 350px;
+  }
+}
+
+@media (min-width: 896px) {
+  .home-page-logo {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .decoration1 {
+    top: -450px;
+    right: -260px;
+  }
+
+  .decoration2 {
+    width: 600px;
+    bottom: -280px;
+    left: -300px;
+  }
+
+  .decoration3 {
+    width: 680px;
+    bottom: -450px;
+    right: -185px;
+  }
+
+  .home-page-logo {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .decoration1 {
+    top: -450px;
+    right: -200px;
+  }
+
+  .decoration2 {
+    width: 600px;
+    bottom: -180px;
+    left: -300px;
+  }
+
+  .decoration3 {
+    width: 680px;
+    bottom: -330px;
+    right: -195px;
+  }
+
+  .home-page-logo {
+    width: 600px;
+  }
+}

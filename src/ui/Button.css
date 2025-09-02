@@ -1,0 +1,77 @@
+.btn-primary {
+  padding-inline: var(--spacing-3xl);
+  padding-block: var(--spacing-xs);
+  border-radius: 999px;
+  color: var(--neutral-0);
+  background-color: var(--success-200);
+  line-height: 1.125;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--primary-400);
+}
+
+.btn.btn-primary:active {
+  background-color: var(--primary-500);
+}
+
+.btn.btn-primary.active {
+  background-color: var(--primary-700);
+}
+
+.btn-secondary {
+  padding-inline: var(--spacing-3xl);
+  padding-block: var(--spacing-xs);
+  border-radius: 999px;
+  color: var(--neutral-0);
+  background-color: var(--neutral-200);
+  border: 1px solid var(--primary-500);
+  line-height: 1.125;
+}
+
+.btn.btn-secondary:hover {
+  background-color: var(--primary-400);
+}
+
+.btn.btn-secondary:active {
+  background-color: var(--primary-400);
+}
+
+.btn.btn-secondary.active {
+  background-color: var(--neutral-200);
+  border: 1px solid var(--primary-500);
+}
+
+.btn-tertiary {
+  padding-inline: var(--spacing-3xl);
+  padding-block: var(--spacing-xs);
+  border-radius: 999px;
+  color: var(--neutral-900);
+  background-color: var(--neutral-100);
+  line-height: 1.125;
+}
+
+.btn.btn-tertiary:hover {
+  background-color: var(--neutral-300);
+}
+
+.btn.btn-tertiary:active {
+  color: var(--neutral-100);
+  background-color: var(--neutral-500);
+}
+
+.btn.btn-tertiary.active {
+  color: var(--success-200);
+  background-color: var(--neutral-100);
+  border: 1px solid var(--success-200);
+}
+
+.btn.btn-primary.disabled,
+.btn.btn-secondary.disabled,
+.btn.btn-tertiary.disabled,
+.btn.btn-primary:disabled,
+.btn.btn-secondary:disabled,
+.btn.btn-tertiary:disabled {
+  color: var(--neutral-900);
+  background-color: var(--neutral-400);
+}
